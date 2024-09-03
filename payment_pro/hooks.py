@@ -132,6 +132,13 @@ app_license = "mit"
 # override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
+override_doctype_class = {
+	"Purchase Invoice": "payment_pro.overrides.purchase_invoice.CustomPurchaseInvoice"
+ 
+}
+doctype_js = {
+    "Purchase Invoice": "public/js/purchase_invoice.js"
+}
 
 # Document Events
 # ---------------
